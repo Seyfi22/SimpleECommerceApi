@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|c:\\users\\lenovo\\source\\repos\\simpleecommerceapi\\src\\simpleecommerceapi.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|solutionrelative:src\\simpleecommerceapi.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|c:\\users\\lenovo\\source\\repos\\simpleecommerceapi\\src\\simpleecommerceapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|solutionrelative:src\\simpleecommerceapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|c:\\users\\lenovo\\source\\repos\\simpleecommerceapi\\src\\simpleecommerceapi.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|solutionrelative:src\\simpleecommerceapi.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|c:\\users\\lenovo\\source\\repos\\simpleecommerceapi\\src\\simpleecommerceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|solutionrelative:src\\simpleecommerceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|c:\\users\\lenovo\\source\\repos\\simpleecommerceapi\\src\\simpleecommerceapi.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|solutionrelative:src\\simpleecommerceapi.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|c:\\users\\lenovo\\source\\repos\\simpleecommerceapi\\src\\simpleecommerceapi.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|solutionrelative:src\\simpleecommerceapi.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|c:\\users\\lenovo\\source\\repos\\simpleecommerceapi\\src\\simpleecommerceapi.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|solutionrelative:src\\simpleecommerceapi.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|c:\\users\\lenovo\\source\\repos\\simpleecommerceapi\\src\\simpleecommerceapi.domain\\simpleecommerceapi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77A54187-52B8-45D7-B7C8-D5643DBD3CB0}|src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj|solutionrelative:src\\simpleecommerceapi.domain\\simpleecommerceapi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "src\\SimpleECommerceApi.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "src\\SimpleECommerceApi.Domain\\Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:00:29.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "src\\SimpleECommerceApi.Domain\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "src\\SimpleECommerceApi.Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA8wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:56:44.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "src\\SimpleECommerceApi.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "src\\SimpleECommerceApi.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:55:21.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "src\\SimpleECommerceApi.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "src\\SimpleECommerceApi.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:53:41.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "src\\SimpleECommerceApi.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "src\\SimpleECommerceApi.Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:52:49.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "src\\SimpleECommerceApi.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "src\\SimpleECommerceApi.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:50:45.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "src\\SimpleECommerceApi.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "src\\SimpleECommerceApi.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:45:14.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SimpleECommerceApi.Domain",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SimpleECommerceApi\\src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj",
+              "RelativeToolTip": "src\\SimpleECommerceApi.Domain\\SimpleECommerceApi.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T06:29:21.975Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
