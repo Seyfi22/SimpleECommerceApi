@@ -1,2 +1,2 @@
-# AspNetCore-WebApi-Project
+# AspNetCore-WebApi-Project / Simple E-Commerce API
 Project is under development...
