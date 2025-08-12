@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SimpleECommerceApi.Domain.Enums;
+using SimpleECommerceApi.Domain.ValueObjects;
 
 namespace SimpleECommerceApi.Domain.Entities
 {
@@ -12,23 +14,20 @@ namespace SimpleECommerceApi.Domain.Entities
         public Guid CustomerId { get; private set; }
         public DateTime OrderDate { get; private set; }
         public OrderStatus Status { get; private set; }
-        public decimal TotalAmount { get; private set; }
+        public Money TotalAmount { get; private set; }  // decimal yox, Money
 
-        // Bir sifariş bir neçə OrderItem-dən ibarət olur
         private readonly List<OrderItem> _orderItems = new();
         public IReadOnlyCollection<OrderItem> OrderItems => _orderItems.AsReadOnly();
 
-        // Konstruktor
         public Order(Guid customerId)
         {
             Id = Guid.NewGuid();
             CustomerId = customerId;
             OrderDate = DateTime.UtcNow;
             Status = OrderStatus.Pending;
-            TotalAmount = 0;
+            TotalAmount = new Money(0, "USD");  // sıfırla başla
         }
 
-        // OrderItem əlavə etmək metodu
         public void AddOrderItem(Product product, int quantity)
         {
             if (quantity <= 0)
@@ -40,18 +39,15 @@ namespace SimpleECommerceApi.Domain.Entities
             if (product.StockQuantity < quantity)
                 throw new InvalidOperationException("Not enough stock for the product.");
 
-            // Stock-u azaldırıq
             product.ReduceStock(quantity);
 
-            // Yeni OrderItem yaradıb siyahıya əlavə edirik
             var orderItem = new OrderItem(this.Id, product.Id, quantity, product.Price);
             _orderItems.Add(orderItem);
 
-            // Total məbləği yeniləyirik
-            TotalAmount += orderItem.UnitPrice * orderItem.Quantity;
+            // TotalAmount = TotalAmount + orderItem.TotalPrice; üçün + operator overload edilməlidir
+            TotalAmount += orderItem.TotalPrice;
         }
 
-        // Sifariş statusunu yeniləmə metodu
         public void UpdateStatus(OrderStatus newStatus)
         {
             Status = newStatus;
@@ -59,13 +55,5 @@ namespace SimpleECommerceApi.Domain.Entities
     }
 
     // Sifariş statusları üçün Enum (Enums qovluğunda ayrıca saxlanıla bilər)
-    public enum OrderStatus
-    {
-        Pending,
-        Confirmed,
-        Shipped,
-        Delivered,
-        Cancelled
-    }
 }
 

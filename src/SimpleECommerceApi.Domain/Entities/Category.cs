@@ -15,6 +15,9 @@ namespace SimpleECommerceApi.Domain.Entities
         // Konstruktor
         public Category(string name, string? description = null)
         {
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentException("Category name cannot be empty.", nameof(name));
+
             Id = Guid.NewGuid();
             Name = name;
             Description = description;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SimpleECommerceApi.Domain.ValueObjects;
 
 namespace SimpleECommerceApi.Domain.Entities
 {
@@ -12,15 +13,15 @@ namespace SimpleECommerceApi.Domain.Entities
         public Guid OrderId { get; private set; }
         public Guid ProductId { get; private set; }
         public int Quantity { get; private set; }
-        public decimal UnitPrice { get; private set; }
+        public Money UnitPrice { get; private set; }  // decimal yox, Money
 
-        public OrderItem(Guid orderId, Guid productId, int quantity, decimal unitPrice)
+        public OrderItem(Guid orderId, Guid productId, int quantity, Money unitPrice)
         {
             if (quantity <= 0)
                 throw new ArgumentException("Quantity must be greater than zero.");
 
-            if (unitPrice <= 0)
-                throw new ArgumentException("UnitPrice must be greater than zero.");
+            if (unitPrice == null)
+                throw new ArgumentNullException(nameof(unitPrice));
 
             Id = Guid.NewGuid();
             OrderId = orderId;
@@ -30,6 +31,6 @@ namespace SimpleECommerceApi.Domain.Entities
         }
 
         // Ümumi məbləğ hesablayan property
-        public decimal TotalPrice => UnitPrice * Quantity;
+        public Money TotalPrice => UnitPrice * Quantity;
     }
 }

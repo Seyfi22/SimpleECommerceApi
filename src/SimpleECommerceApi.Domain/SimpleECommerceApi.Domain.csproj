@@ -7,12 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Enums\" />
     <Folder Include="Exceptions\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Events\" />
     <Folder Include="Spesifications\" />
-    <Folder Include="ValueObjects\" />
   </ItemGroup>
 
 </Project>
